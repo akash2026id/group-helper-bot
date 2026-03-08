@@ -1,5 +1,24 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+  "version": 2,
+  "functions": {
+    "api/index.js": {
+      "memory": 256,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.js"
+    }
   ]
 }
+```
+
+**Commit changes** ক্লিক করুন ✅
+
+---
+
+Commit হলে Vercel auto-redeploy করবে। তারপর আবার এই URL চেক করুন:
+```
+https://group-helper-by8brkjbj-akash2026ids-projects.vercel.app/webhook?hub.mode=subscribe&hub.verify_token=CyberAkashBot2026&hub.challenge=test123
