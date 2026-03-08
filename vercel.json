@@ -8,11 +8,16 @@
   ],
   "routes": [
     {
+      "src": "/webhook",
+      "dest": "src/index.js"
+    },
+    {
+      "src": "/",
+      "dest": "src/index.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "src/index.js"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
