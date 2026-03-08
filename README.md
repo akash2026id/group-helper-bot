@@ -241,4 +241,4 @@ WhatsApp: https://wa.me/8801966061084
 
 ---
 
-*Group Helper Bot v1.0 — Made with ❤️ in Bangladesh*
+*Group Helper Bot v1.0 — Made with ' Mr Abuhurira ' in Bangladesh*🤝💋😎
